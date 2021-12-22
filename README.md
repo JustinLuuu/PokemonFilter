@@ -1,4 +1,4 @@
-<h1>Como correrlo ?</h1>
+<h1>Cómo correrlo ?</h1>
 
 <h3>
  * Para correr el Frontend: 
