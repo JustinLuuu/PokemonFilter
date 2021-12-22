@@ -31,7 +31,7 @@
 
 <h2>IMPORTANTE !!! :</h2>
 <div> 
-   <p>Para conectar el <b>Frontend</b> con el <b>Backend</b> debe cambiar el numero de puerto que esta definido en este documento por el puerto de localhost donde corre el backend, imagen de referencia a continacion...</p>
+   <p>Para conectar el <b>Frontend</b> con el <b>Backend</b> debe cambiar el numero de puerto que esta definido en este documento por el puerto de localhost donde corre el backend, imagen de referencia a continuacion...</p>
   
   ![dir](https://user-images.githubusercontent.com/77954884/147167700-de70101a-a44f-412a-a1bc-17b95f6160c3.png)
 
