@@ -2,9 +2,9 @@
   <div>
     <h1>{{ title }}</h1>
 
-    <div class="w-50 m-auto pt-4">
+    <div class="w-100 m-auto pt-4">
       <form v-on:submit.prevent="onSubmit">
-        <label class="h5">¡ Write a name that matches !</label>
+        <label class="h5">¡ Write some that matches !</label>
 
         <h5 v-if="pokemonMatches.length != 0">
           <span class="badge bg-danger">{{ pokemonMatches.length }}</span>
@@ -20,7 +20,7 @@
             form-control
             text-center
             fw-bold
-            w-75
+            w-50
             m-auto
             border border-2 border-primary
           "
@@ -83,7 +83,7 @@ export default {
       if (!this.pokemonToFind) return;
 
       this.pokemonMatches = [];
-      fetch(url + `/GetMatches/${this.pokemonToFind}`)
+      fetch(url + `/matches/${this.pokemonToFind}`)
         .then((res) => {
           if (res.ok) {
             this.setTitle(titleDefault);

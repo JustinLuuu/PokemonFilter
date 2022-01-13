@@ -3,7 +3,7 @@
     <h1>Detail of Pokemon Selected 📋</h1>
 
     <div class="row w-75 m-auto pt-4" v-if="pokemon">
-      <div class="col-6 ps-5">
+      <div class="col-lg-6 col-md-12 ps-5">
         <img
           v-bind:src="pokemon.sprites?.other.dream_world.front_default"
           v-bind:alt="'photo-of-' + pokemon.name"
@@ -17,7 +17,7 @@
         </h2>
       </div>
 
-      <div class="col-6 text-start d-flex flex-column align-items-start">
+      <div class="col-lg-6 col-md-12 text-start d-flex flex-column">
         <div>
           <p class="h3">
             <span class="badge bg-primary mb-2">Type</span> <br />
@@ -52,6 +52,13 @@
           Click for Download Info
         </button>
       </div>
+
+      <router-link
+        :to="'/'"
+        class="btn btn-secondary w-50 m-auto my-4 fw-bold"
+      >
+        Back
+      </router-link>
     </div>
   </div>
 </template>
@@ -59,24 +66,24 @@
 
 <script>
 import url from "../urlApi";
-import MakeTxtDocument from '../helpers/MakeTxtDocument';
+import MakeTxtDocument from "../helpers/MakeTxtDocument";
 
 export default {
   data() {
     return {
-      pokemon: {},      
+      pokemon: {},
     };
   },
   methods: {
     DownloadPokemonFile() {
-      MakeTxtDocument(this.pokemon);      
+      MakeTxtDocument(this.pokemon);
     },
   },
   created() {
     const { id } = this.$route.params;
     isNaN(id) && this.$router.push("/");
 
-    fetch(url + `/GetPokemon/${id}`)
+    fetch(url + `/pokemon-id/${id}`)
       .then((res) => {
         if (res.ok) {
           return res.json();
