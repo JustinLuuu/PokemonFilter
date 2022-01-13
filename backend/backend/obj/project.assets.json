@@ -250,11 +250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Escritorio\\PokemonByName\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Escritorio\\Nueva carpeta\\PokemonFilter\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\justi\\OneDrive\\Escritorio\\PokemonByName\\backend\\backend\\backend.csproj",
+      "projectPath": "C:\\Users\\justi\\OneDrive\\Escritorio\\Nueva carpeta\\PokemonFilter\\backend\\backend\\backend.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\OneDrive\\Escritorio\\PokemonByName\\backend\\backend\\obj\\",
+      "outputPath": "C:\\Users\\justi\\OneDrive\\Escritorio\\Nueva carpeta\\PokemonFilter\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,7 +10,7 @@ namespace backend.Controllers
     {        
         GetPokemonHelper pokeMethods = new GetPokemonHelper();
 
-        [HttpGet("GetMatches/{characterString}")]
+        [HttpGet("matches/{characterString}")]
         public async Task<ActionResult<List<PokemonResult>>> Get(string characterString)
         {
             if (!ValidateStringParams.Validate(characterString))
@@ -29,7 +29,7 @@ namespace backend.Controllers
         }
 
 
-        [HttpGet("GetPokemon/{pokemonId:int}")]
+        [HttpGet("pokemon-id/{pokemonId:int}")]
         public async Task<ActionResult<Pokemon>> Get(int pokemonId)
         {
             if(pokemonId == default(int)) // check if integer is null or has the default value: 0

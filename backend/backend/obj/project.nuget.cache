@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a1vhGD/mt89pXgNjUX6eg6qpK3Ny3T0FI1RIRoX4UyRNHEmSY2flLZHUL56mUeXWMIRf7bvUi3zI3GsBbkf4ZQ==",
+  "dgSpecHash": "gJVmJK0rMuUypy2kdL8FYyKqCUlFfAo04WW9ljmVSAh/TDXmi2z3T8P+B+wQrviBtvnSU0T90v9D5XuP/MXU6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Escritorio\\PokemonByName\\backend\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Escritorio\\Nueva carpeta\\PokemonFilter\\backend\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
