@@ -23,13 +23,7 @@ namespace backend.Controllers
             if (statusCode == 200)
             {               
                 var pokemonsFiltered = allPokemons?.Where(x => x.name.Contains(characterString.ToLower())).ToList();
-
-                if (pokemonsFiltered?.Count > 0)
-                {
-                    return Ok(pokemonsFiltered);
-                }
-
-                return NotFound("no matches found with pokemon names!");
+                return pokemonsFiltered?.Count > 0 ? Ok(pokemonsFiltered) : NotFound("no matches found with pokemon names!");                
             }
             return BadRequest();
         }
