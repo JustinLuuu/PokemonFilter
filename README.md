@@ -25,7 +25,7 @@
        <li>Run the following command in the terminal: <b>'dotnet run'</b>, and wait for the local server to come up.</li>
       <li>When finished, it will show an address similar to this: <b>https://localhost:7168/</b>; if you want to test the backend, copy and paste that address into your browser and followed by that address type: <b>/swagger/index.html</b>. For example: <b>https://localhost:7168/swagger/index.html</b> <br/>
         <p>It will take you to a page similar to this: (there you can test the WebApi)</p>
-![swagger](https://user-images.githubusercontent.com/77954884/147166953-fc8d5aa2-5944-4f4b-b217-449832d3797f.png)
+<img src='https://user-images.githubusercontent.com/77954884/147166953-fc8d5aa2-5944-4f4b-b217-449832d3797f.png' alt='img' />
   </li>
 </ol>
 
