@@ -1,7 +1,7 @@
 <h1>How to run it?</h1>
 
 <h3>
- * To run the Frontend:
+ * To run the Frontend 🎨 :
 </h3>
 
 <ol>
@@ -16,7 +16,7 @@
 <hr/>
 
 <h3>
- * To run the Backend:
+ * To run the Backend 💻:
 </h3>
 
 <ol>
